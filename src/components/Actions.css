@@ -1,0 +1,77 @@
+.gear-icon1 {
+  height: 41px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.settings1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inder);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.logout-buttons,
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.logout-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs-5) var(--padding-3xs);
+  background-color: var(--color-darkslategray-100);
+  align-self: stretch;
+  border-radius: var(--br-mid);
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.logout1 {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.logout-buttons1 {
+  align-self: stretch;
+  border-radius: var(--br-mid);
+  background-color: var(--color-darkslategray-100);
+  flex-direction: row;
+  padding: var(--padding-6xs-5) var(--padding-3xs);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.action-buttons,
+.actions,
+.logout-buttons1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.action-buttons {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.actions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inder);
+}
+@media screen and (max-width: 450px) {
+  .logout1,
+  .settings1 {
+    font-size: var(--font-size-base);
+  }
+}
