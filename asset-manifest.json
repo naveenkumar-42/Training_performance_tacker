@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Training_performance_tacker/static/css/main.2537b91f.css",
+    "main.js": "/Training_performance_tacker/static/js/main.b33743b3.js",
+    "static/js/453.3cef217a.chunk.js": "/Training_performance_tacker/static/js/453.3cef217a.chunk.js",
+    "index.html": "/Training_performance_tacker/index.html",
+    "main.2537b91f.css.map": "/Training_performance_tacker/static/css/main.2537b91f.css.map",
+    "main.b33743b3.js.map": "/Training_performance_tacker/static/js/main.b33743b3.js.map",
+    "453.3cef217a.chunk.js.map": "/Training_performance_tacker/static/js/453.3cef217a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2537b91f.css",
+    "static/js/main.b33743b3.js"
+  ]
+}
