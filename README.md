@@ -30,21 +30,25 @@ The project includes the following pages:
 ### 🎉 Welcome Page
 
 Welcome screen allows users to choose whether to log in as an **Admin**, **Student** or **Parent**.
+
 ![Preview](assets/welcome-screen.png)
 
 ### 🔐 Login Page
 
 Users should log in to access their respective dashboard.
+
 ![Preview](assets/login.png)
 
 ### 📊 Student Dashboard
 
 After logging in, students will be directed to student dashboard where they can track their performance and progress.
+
 ![Preview](assets/student-dashboard.png)
 
 ### 🛠️ Admin Dashboard
 
 Admins will be redirected to admin dashboard where they can manage student data and monitor performance statistics.
+
 ![Preview](assets/admin-dashboard.png)
 
 ## 🐞 Issues and Feedback
