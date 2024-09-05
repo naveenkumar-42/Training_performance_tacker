@@ -1,13 +1,10 @@
-.image3,
-.typeoflogin {
+.image3 {
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-}
-.image3 {
-  flex: 1;
-  background-color: var(--color-darkslategray-100);
   justify-content: center;
   padding: var(--padding-112xl) var(--padding-xl);
   box-sizing: border-box;
@@ -17,10 +14,15 @@
   width: 100%;
   position: relative;
   background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-start;
   line-height: normal;
   letter-spacing: normal;
 }
+
 @media screen and (max-width: 750px) {
   .image3 {
     padding-top: var(--padding-66xl);

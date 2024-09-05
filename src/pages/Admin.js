@@ -78,7 +78,7 @@ const Admin = () => {
                       <div className="b-t-department">
                         <div className="e-c-department-item">
                           <div className="c-s-student-details">
-                            <div className="roll-no">Roll no:</div>
+                            <div className="roll-no">Roll no</div>
                           </div>
                           <div className="name-label">
                             <div className="name">Name</div>

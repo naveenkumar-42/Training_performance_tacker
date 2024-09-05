@@ -14,22 +14,24 @@
   display: inline-block;
   min-width: 77px;
 }
-.logout-buttons,
 .settings-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) 0px 0px;
 }
 .logout-buttons {
   cursor: pointer;
-  border: 0;
+  border: none;
   padding: var(--padding-6xs-5) var(--padding-3xs);
   background-color: var(--color-darkslategray-100);
   align-self: stretch;
   border-radius: var(--br-mid);
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-3xs);
   z-index: 1;
 }
@@ -42,36 +44,42 @@
   align-self: stretch;
   border-radius: var(--br-mid);
   background-color: var(--color-darkslategray-100);
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-6xs-5) var(--padding-3xs);
   gap: var(--gap-3xs);
   cursor: pointer;
   z-index: 1;
 }
-.action-buttons,
-.actions,
-.logout-buttons1 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .action-buttons {
   flex: 1;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-mini);
 }
 .actions {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
-  padding: 0 var(--padding-5xl) 0 var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xl) 0px var(--padding-sm);
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--color-white);
   font-family: var(--font-inder);
 }
+
 @media screen and (max-width: 450px) {
-  .logout1,
   .settings1 {
+    font-size: var(--font-size-base);
+  }
+
+  .logout1 {
     font-size: var(--font-size-base);
   }
 }

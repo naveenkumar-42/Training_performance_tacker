@@ -29,13 +29,13 @@ const Main = ({ className = "" }) => {
       <div className="navigation">
         <div className="profiles">
           <button className="image8">
-            <img className="person-icon2" alt="" src="/person@2x.png" />
+            <img className="person-icon2" alt="" src="/person2@2x.png" />
             <div className="profile-names">
               <a className="profile2">Profile</a>
             </div>
           </button>
           <div className="separator2" onClick={onSeparatorContainerClick}>
-            <img className="nas-icon2" alt="" src="/nas@2x.png" />
+            <img className="nas-icon2" alt="" src="/nas2@2x.png" />
             <div className="resource2">{`Resource `}</div>
           </div>
           <ProfileTypes />

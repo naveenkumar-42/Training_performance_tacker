@@ -3,13 +3,7 @@ import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Admin1.css";
 
-const Admin1 = ({
-  className = "",
-  onAdminContainerClick,
-  management,
-  aDMIN,
-  propMinWidth,
-}) => {
+const Admin1 = ({ className = "", management, aDMIN, propMinWidth }) => {
   const aDMINStyle = useMemo(() => {
     return {
       minWidth: propMinWidth,
@@ -18,7 +12,7 @@ const Admin1 = ({
 
   const navigate = useNavigate();
 
-  const onAdminContainerClick1 = useCallback(() => {
+  const onAdminContainerClick = useCallback(() => {
     navigate("/admin");
   }, [navigate]);
 
@@ -44,9 +38,6 @@ Admin1.propTypes = {
 
   /** Style props */
   propMinWidth: PropTypes.any,
-
-  /** Action props */
-  onAdminContainerClick: PropTypes.func,
 };
 
 export default Admin1;

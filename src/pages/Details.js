@@ -19,7 +19,7 @@ const Details = () => {
 
   const onFrameContainerClick1 = useCallback(() => {
     window.open(
-      "https://ps.bitsathy.ac.in/course/VTJGc2RHVmtYMStpM0RzNjFiNk5La3NienIzaVBjcnczUVdKQnRLK2xSZz0="
+      "https://ps.bitsathy.ac.in/course/VTJGc2RHVmtYMStpM0RzNjFiNk5La3NienIzaVBjcnczUVdKQnRLK2xSZz0=",
     );
   }, []);
 
@@ -64,7 +64,7 @@ const Details = () => {
                       className="nas-icon"
                       loading="lazy"
                       alt=""
-                      src="/nas@2x.png"
+                      src="/nas1@2x.png"
                     />
                     <h3 className="resource">{`Resource `}</h3>
                   </div>

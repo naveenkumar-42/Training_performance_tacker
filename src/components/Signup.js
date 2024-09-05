@@ -1,19 +1,11 @@
 import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
 import Admin1 from "./Admin1";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Signup.css";
 
 const Signup = ({ className = "" }) => {
   const navigate = useNavigate();
-
-  const onAdminContainerClick = useCallback(() => {
-    navigate("/admin");
-  }, [navigate]);
-
-  const onParentContainerClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
 
   const onGroupButtonClick = useCallback(() => {
     navigate("/login");
@@ -44,11 +36,7 @@ const Signup = ({ className = "" }) => {
           </div>
           <div className="frame-wrapper3">
             <div className="admin-parent">
-              <Admin1
-                onAdminContainerClick={onAdminContainerClick}
-                management="/management@2x.png"
-                aDMIN="ADMIN"
-              />
+              <Admin1 management="/management@2x.png" aDMIN="ADMIN" />
               <div className="frame-wrapper4">
                 <button
                   className="rectangle-group"
@@ -66,7 +54,6 @@ const Signup = ({ className = "" }) => {
                 </button>
               </div>
               <Admin1
-                onAdminContainerClick={onParentContainerClick}
                 management="/user-account@2x.png"
                 aDMIN="Parents"
                 propMinWidth="96px"

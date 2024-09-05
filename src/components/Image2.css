@@ -1,56 +1,59 @@
-.background10,
 .training-and-placement {
   position: relative;
 }
 .background10 {
+  position: relative;
   display: inline-block;
   min-width: 27px;
 }
 .background-frame {
   background-color: var(--color-darkgray);
-  flex-direction: row;
-  padding: var(--padding-9xs) var(--padding-10xs);
-}
-.background-frame,
-.frame-parent11,
-.frame-wrapper5,
-.improvement {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-10xs);
 }
 .improvement {
+  display: flex;
   flex-direction: column;
-  padding: var(--padding-6xs) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0px 0px;
   font-size: var(--font-size-sm);
   color: var(--color-white);
 }
-.frame-parent11,
-.frame-wrapper5 {
-  flex-direction: row;
-}
 .frame-parent11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-3xl);
 }
 .frame-wrapper5 {
-  padding: 0 var(--padding-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs);
   font-size: var(--font-size-xl);
   color: var(--color-gray-300);
 }
-.image-inner,
 .training-and-placement-fa-parent {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.training-and-placement-fa-parent {
-  align-self: stretch;
   gap: var(--gap-7xs);
 }
 .image-inner {
   flex: 1;
-  padding: var(--padding-sm) 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0px 0px;
 }
 .image-icon {
   height: 101px;
@@ -78,6 +81,7 @@
   color: var(--color-white);
   font-family: var(--font-inder);
 }
+
 @media screen and (max-width: 450px) {
   .background10 {
     font-size: var(--font-size-base);

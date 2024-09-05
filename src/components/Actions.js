@@ -14,7 +14,7 @@ const Actions = ({ className = "" }) => {
     <div className={`actions ${className}`}>
       <div className="action-buttons">
         <button className="logout-buttons">
-          <img className="gear-icon1" alt="" src="/gear@2x.png" />
+          <img className="gear-icon1" alt="" src="/gear2@2x.png" />
           <div className="settings-wrapper">
             <a className="settings1">Settings</a>
           </div>
@@ -23,7 +23,7 @@ const Actions = ({ className = "" }) => {
           className="logout-buttons1"
           onClick={onLogoutButtonsContainerClick}
         >
-          <img className="gear-icon1" alt="" src="/logout@2x.png" />
+          <img className="gear-icon1" alt="" src="/logout2@2x.png" />
           <div className="settings-wrapper">
             <div className="logout1">Logout</div>
           </div>

@@ -36,10 +36,14 @@
   gap: var(--gap-11xs);
 }
 .ega-inner {
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  align-self: stretch;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.ega,
-.ega-inner {
+.ega {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -78,61 +82,60 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-8xs-5);
-}
-.frame-wrapper4,
-.rectangle-group {
-  flex-direction: row;
-  justify-content: flex-start;
+  padding: 0px 0px var(--padding-8xs-5);
 }
 .rectangle-group {
   cursor: pointer;
-  border: 0;
-  padding: 0 var(--padding-9xl) var(--padding-12xs);
+  border: none;
+  padding: 0px var(--padding-9xl) var(--padding-12xs);
   background-color: var(--color-white);
   flex: 1;
   border-radius: var(--br-37xl);
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-4xs);
 }
 .frame-wrapper4 {
   align-self: stretch;
-  padding: 0 var(--padding-3xs);
-}
-.admin-parent,
-.frame-wrapper3,
-.frame-wrapper4 {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-3xs);
 }
 .admin-parent {
   width: 251px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-base-5);
 }
 .frame-wrapper3 {
   align-self: stretch;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
-}
-.ega-parent,
-.signup-inner {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
 }
 .ega-parent {
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-23xl);
 }
 .signup-inner {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  padding: var(--padding-5xs) 0 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
   box-sizing: border-box;
   min-width: 291px;
   max-width: 100%;
@@ -172,6 +175,7 @@
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 @media screen and (max-width: 750px) {
   .welcome-to-training-container1 {
     font-size: var(--font-size-7xl);
@@ -190,14 +194,17 @@
     font-size: var(--font-size-lgi);
     line-height: 25px;
   }
+
   .student {
     font-size: var(--font-size-xl);
     line-height: 33px;
   }
+
   .rectangle-group {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .ega-parent {
     gap: var(--gap-2xl);
   }

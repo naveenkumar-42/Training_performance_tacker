@@ -6,17 +6,15 @@
   background-color: var(--color-white);
   display: none;
 }
-.admin2,
-.management-icon {
-  position: relative;
-  z-index: 1;
-}
 .management-icon {
   height: 51px;
   width: 40px;
+  position: relative;
   object-fit: cover;
+  z-index: 1;
 }
 .admin2 {
+  position: relative;
   font-size: var(--font-size-6xl);
   line-height: 41px;
   display: inline-block;
@@ -25,40 +23,44 @@
   color: var(--color-black);
   text-align: center;
   min-width: 82px;
-}
-.admin-parents-label,
-.admin1,
-.rectangle-parent {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  z-index: 1;
 }
 .admin-parents-label {
+  display: flex;
   flex-direction: column;
-  padding: var(--padding-9xs-5) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0px 0px;
 }
-.admin1,
 .rectangle-parent {
-  flex-direction: row;
   cursor: pointer;
-}
-.rectangle-parent {
-  border: 0;
-  padding: var(--padding-11xs) var(--padding-19xl) 0;
+  border: none;
+  padding: var(--padding-11xs) var(--padding-19xl) 0px;
   background-color: var(--color-white);
   flex: 1;
   border-radius: var(--br-37xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-6xs);
 }
 .admin1 {
   align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-3xs);
+  cursor: pointer;
 }
+
 @media screen and (max-width: 450px) {
   .admin2 {
     font-size: var(--font-size-xl);
     line-height: 33px;
   }
+
   .rectangle-parent {
     flex-wrap: wrap;
   }
